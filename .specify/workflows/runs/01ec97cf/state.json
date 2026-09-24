@@ -1,0 +1,43 @@
+{
+  "run_id": "01ec97cf",
+  "workflow_id": "speckit",
+  "installed_workflow_id": "speckit",
+  "installed_registry_root": null,
+  "status": "failed",
+  "current_step_index": 0,
+  "current_step_id": "specify",
+  "step_results": {
+    "specify": {
+      "type": "command",
+      "integration": "claude",
+      "model": null,
+      "options": {},
+      "input": {
+        "args": "Update framework from React 18.x to React 19.x with Vite, change language from JavaScript (ES6+) to TypeScript Latest, and replace useReducer state management with Redux Toolkit latest"
+      },
+      "output": {
+        "command": "speckit.specify",
+        "integration": "claude",
+        "model": null,
+        "options": {},
+        "input": {
+          "args": "Update framework from React 18.x to React 19.x with Vite, change language from JavaScript (ES6+) to TypeScript Latest, and replace useReducer state management with Redux Toolkit latest"
+        },
+        "integration_args": [],
+        "integration_options": {},
+        "exit_code": 143,
+        "stdout": "",
+        "stderr": "",
+        "dispatched": true
+      },
+      "status": "failed",
+      "error": "Command exited with code 143",
+      "integration_args": [],
+      "integration_options": {}
+    }
+  },
+  "workflow_dir": "F:\\pervez\\AI-learning\\sdd\\todo-app\\.specify\\workflows\\speckit",
+  "created_at": "2026-09-24T08:16:12.112304+00:00",
+  "updated_at": "2026-09-24T08:17:11.936105+00:00",
+  "error": "Command exited with code 143"
+}

@@ -1,0 +1,66 @@
+{
+  "run_id": "45fe10fc",
+  "workflow_id": "speckit",
+  "installed_workflow_id": "speckit",
+  "installed_registry_root": null,
+  "status": "aborted",
+  "current_step_index": 1,
+  "current_step_id": "review-spec",
+  "step_results": {
+    "specify": {
+      "type": "command",
+      "integration": "claude",
+      "model": null,
+      "options": {},
+      "input": {
+        "args": "Update framework from React 18.x to React 19.x with Vite, change language from JavaScript (ES6+) to TypeScript Latest, and replace useReducer state management with Redux Toolkit latest"
+      },
+      "output": {
+        "command": "speckit.specify",
+        "integration": "claude",
+        "model": null,
+        "options": {},
+        "input": {
+          "args": "Update framework from React 18.x to React 19.x with Vite, change language from JavaScript (ES6+) to TypeScript Latest, and replace useReducer state management with Redux Toolkit latest"
+        },
+        "integration_args": [],
+        "integration_options": {},
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "dispatched": true
+      },
+      "status": "completed",
+      "error": null,
+      "integration_args": [],
+      "integration_options": {}
+    },
+    "review-spec": {
+      "type": "gate",
+      "integration": null,
+      "model": null,
+      "options": [
+        "approve",
+        "reject"
+      ],
+      "input": {},
+      "output": {
+        "message": "Review the generated spec before planning.",
+        "options": [
+          "approve",
+          "reject"
+        ],
+        "on_reject": "abort",
+        "show_file": null,
+        "choice": "reject",
+        "aborted": true
+      },
+      "status": "failed",
+      "error": "Gate rejected by user at step 'review-spec'"
+    }
+  },
+  "workflow_dir": "F:\\pervez\\AI-learning\\sdd\\todo-app\\.specify\\workflows\\speckit",
+  "created_at": "2026-09-24T07:53:56.570425+00:00",
+  "updated_at": "2026-09-24T08:07:35.823142+00:00",
+  "error": "Gate rejected by user at step 'review-spec'"
+}
