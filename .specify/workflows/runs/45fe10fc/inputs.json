@@ -1,0 +1,6 @@
+{
+  "inputs": {
+    "spec": "Update framework from React 18.x to React 19.x with Vite, change language from JavaScript (ES6+) to TypeScript Latest, and replace useReducer state management with Redux Toolkit latest",
+    "integration": "claude"
+  }
+}
