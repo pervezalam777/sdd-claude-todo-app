@@ -81,3 +81,19 @@
 - [ ] TASK-050: Verify dev server works correctly
 - [ ] TASK-051: Test application in browser
 - [ ] TASK-052: Deploy to hosting provider
+
+## Phase 11: Backup and Restore Feature
+
+- [ ] TASK-053: Create `src/types/backup.ts` - Define BackupFile, BackupSchedule, BackupInfo interfaces
+- [ ] TASK-054: Create `src/services/backupService.ts` - Implement backup/restore logic
+- [ ] TASK-055: Create `src/store/backupSlice.ts` - Add backup state management
+- [ ] TASK-056: Create `src/hooks/useBackup.ts` - Custom hook for backup operations
+- [ ] TASK-057: Create `src/components/BackupPanel.tsx` - Backup/Restore UI component
+- [ ] TASK-058: Update `src/store/index.ts` - Add backup reducer to store
+- [ ] TASK-059: Update `src/store/selectors.ts` - Add backup selectors
+- [ ] TASK-060: Update `src/components/TodoApp.tsx` - Integrate backup panel
+- [ ] TASK-061: Create unit tests for backupService
+- [ ] TASK-062: Create unit tests for backupSlice
+- [ ] TASK-063: Create integration tests for backup/restore flow
+- [ ] TASK-064: Update quickstart.md with validation steps
+- [ ] TASK-065: Test backup creation and restoration manually
