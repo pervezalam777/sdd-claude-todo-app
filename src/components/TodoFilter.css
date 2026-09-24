@@ -1,0 +1,63 @@
+/* Todo Filter */
+.todo-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.todo-filter-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.todo-filter-btn {
+  padding: 8px 16px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.todo-filter-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.todo-filter-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: transparent;
+}
+
+.todo-filter-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-stats-count {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.todo-clear-btn {
+  padding: 6px 14px;
+  border: none;
+  background: #dc3545;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.todo-clear-btn:hover {
+  background: #c82333;
+}

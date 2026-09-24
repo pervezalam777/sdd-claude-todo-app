@@ -1,0 +1,31 @@
+/* Todo App Container */
+.todo-app {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  min-height: 500px;
+}
+
+.todo-app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.todo-app-title {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.todo-app-subtitle {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.todo-app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
